@@ -37,14 +37,14 @@ body{
 .ownership a{
 	background-image: linear-gradient(
 	to right,
-	#03065A,
-	#03065A 50%,
+	#FFF,
+	#FFF 50%,
 	#000 50%
 	);
 	background-size: 200% 100%;
 	background-position: -100%;
 	display: inline-block;
-	padding: 5px 0;
+	padding: 25px 0;
 	position: relative;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -52,10 +52,10 @@ body{
 }
 .ownership a:before{
 	content: '';
-	background: #03065A;
+	background: #FFF;
 	display: block;
 	position: absolute;
-	bottom: -3px;
+	bottom: 18px;
 	left: 0;
 	width: 0;
 	height: 3px;
@@ -80,3 +80,46 @@ body{
 	margin-right: 20px;
 	border: 2px solid #fff;
 }
+/* ----- Start of the Designer's Fave person's Link -----*/
+.Crushiee {
+	position: absolute;
+	right: 6%;
+	bottom: 5%;
+	font-size: 15px;
+	color: black;
+}
+.Crushiee a{
+	background-image: linear-gradient(
+	to right,
+	#FFF,
+	#FFF 50%,
+	#000 50%
+	);
+	background-size: 200% 100%;
+	background-position: -100%;
+	display: inline-block;
+	padding: 5px 0;
+	position: relative;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all 0.3s ease-in-out;
+}
+.Crushiee a:before{
+	content: '';
+	background: #FFF;
+	display: block;
+	position: absolute;
+	bottom: 3px;
+	left: 0;
+	width: 0;
+	height: 3px;
+	transition: all 0.3s ease-in-out;
+}
+.Crushiee a:hover {
+	background-position: 0;
+}
+.Crushiee a:hover:before{
+	width:  100%;
+}
+
+/* ----- End of the Designer's Fave person's Link -----*/

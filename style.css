@@ -7,7 +7,7 @@
 .container{
 	width: 100%;
 	height: 100vh;
-	background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url(Background.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.3), transparent), url(Tohru&Kyo.jpg);
 	background-size: cover;
 	background-position: center;
 	padding: 0 8%;
@@ -53,7 +53,7 @@ nav ul li a::after{
 	transition: width 0.3s;
 }
 nav ul li a:hover::after{
-	width: 50%;
+	width: 75%;
 } 
 .text-box{
 		color: #fff;
@@ -61,16 +61,17 @@ nav ul li a:hover::after{
 		bottom: 8%;
 }
 .text-box p{
-	font-size: 4vw;
+	font-size: 3vw;
 	line-height:40px;
 	margin-left: -10px;
 }
 .text-box h1{
-	font-size: 6vw;
-	line-height: 160px;
+	font-size: 4vw;
+	line-height: 85px;
 	margin-left: -10px;
 	color: transparent;
-	-webkit-text-stroke: 3px #800080;
+	-webkit-text-stroke: 2.5px #3A3E3E
+;
 	background: url(images/back.png);
 	-webkit-background-clip: text;
 	background-position: 0 0;
@@ -110,14 +111,14 @@ nav ul li a:hover::after{
 .ownership a{
 	background-image: linear-gradient(
 	to right,
-	#FC0054,
-	#FC0054 50%,
+	#FFF,
+	#FFF 50%,
 	#000 50%
 	);
 	background-size: 200% 100%;
 	background-position: -100%;
 	display: inline-block;
-	padding: 5px 0;
+	padding: 25px 0;
 	position: relative;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -125,10 +126,10 @@ nav ul li a:hover::after{
 }
 .ownership a:before{
 	content: '';
-	background: #FC0054;
+	background: #FFF;
 	display: block;
 	position: absolute;
-	bottom: -3px;
+	bottom: 18px;
 	left: 0;
 	width: 0;
 	height: 3px;
@@ -142,30 +143,47 @@ nav ul li a:hover::after{
 }
 /* ----- End Of Designer's link -----*/
 
-.row{
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: -7%;
-	top: 10%;
-	margin-left: 15%;
+/* ----- Start of the Designer's Fave person's Link -----*/
+.Crushiee {
+	position: absolute;
+	right: 6%;
+	bottom: 5%;
+	font-size: 15px;
+	color: black;
 }
-.row a{
-	color: #fff;
-	text-decoration: none;
-	padding: 10px 20px;
-	margin-right: 20px;
-	border: 2px solid #fff;
+.Crushiee a{
+	background-image: linear-gradient(
+	to right,
+	#FFF,
+	#FFF 50%,
+	#000 50%
+	);
+	background-size: 200% 100%;
+	background-position: -100%;
+	display: inline-block;
+	padding: 5px 0;
+	position: relative;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all 0.3s ease-in-out;
 }
-.Mobile{
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 5%;
-	margin-left: -1.5%;
+.Crushiee a:before{
+	content: '';
+	background: #FFF;
+	display: block;
+	position: absolute;
+	bottom: 3px;
+	left: 0;
+	width: 0;
+	height: 3px;
+	transition: all 0.3s ease-in-out;
 }
-.Mobile a{
-	color: #fff;
-	text-decoration: none;
-	padding: 10px 20px;
-	margin-right: 20px;
-	border: 2px solid #fff;
+.Crushiee a:hover {
+	background-position: 0;
 }
+.Crushiee a:hover:before{
+	width:  100%;
+}
+
+/* ----- End of the Designer's Fave person's Link -----*/
+

@@ -1,0 +1,16 @@
+
+body{
+	background: linear-gradient(45deg, #e91e63, #fffde7);
+}
+.row{
+	position: absolute;
+	left: 15%;
+	top: 15%;
+}
+.row a{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin-right: 20px;
+	border: 2px solid #fff;
+}
