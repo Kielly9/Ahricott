@@ -6,7 +6,7 @@
 }
 body{
 	display: flex;
-	background: linear-gradient(45deg, #e91e63, #fffde7);
+	background: linear-gradient(45deg, #062871, #49639B, #fffde7);
 }
 .container{ 
 	width: 100%;
@@ -71,7 +71,7 @@ body{
 .row{
 	position: absolute;
 	left: 8%;
-	bottom: 7%;
+	top: 7%;
 }
 .row a{
 	color: #fff;
